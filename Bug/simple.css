@@ -5,13 +5,13 @@ body{
 }
 
 .columns {
-    display: flex;
+    
     background-color: #222222;
     height: 550px;
     margin-top: 50px;   
     border-radius: 60px;
     margin-left: 50px;
-    margin-right: 90px;
+    margin-right: 150px;
     margin-bottom: 30px;
 }
 
@@ -32,7 +32,80 @@ body{
 }
 
 .name{
-     margin-left: 50px;
-
+    text-align: center;
+    text-decoration: cadetblue;
+    text-transform: capitalize;
 }
 
+.social {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgb(199, 199, 81);
+    
+}
+.social i:hover {
+    size: 100px;
+    border-radius: 10px;
+    background-color: rgb(103, 115, 151);
+}
+
+.menu {
+    float: right;
+    background-color: khaki;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.foot {
+    
+    height: 300px;
+    border-radius: 30px;
+    margin-right: 35px;
+    float: right;
+    background-color: rgb(147, 189, 189);
+    width: 80px;
+}
+
+
+.icon a i {
+    margin-top: 15px;
+    margin-left: -40px;
+    background-color: thistle;
+    width: 80px;
+}
+
+.arrow  {
+   
+    margin-top: 100px;
+    height: 110px;
+    border-radius: 20px;
+    width: 75px;
+    background-color: rgb(57, 79, 87);
+    
+}
+.arrow i {
+    margin-top: 19px;
+    margin-left: 15px;   
+}
+
+.arrow i:hover {
+    background-color: teal;
+    width: 48px;
+    height: 35px;
+    border-radius: 20px;
+  
+}
+
+.hme h1 {
+
+    text-align:center ;
+    color: lightskyblue;
+    padding-top: 180px;
+    font-size: 80px;
+}
+.hme h2 {
+    text-align:center ;
+    color: rgb(74, 83, 88);
+    margin-top: -8px;
+    font-size: 35px;
+}
